@@ -4,8 +4,8 @@ import ChatBot from "react-chatbotify";
 
 
 const MyChatBot = () => {
-	let apiKey = "AIzaSyCL4krfIjdj26jMjV5z1fvxhRb3KT5P_PQ";
-	const modelType = "gemini-1.5-flash";
+	let apiKey = "Your_API_Key";
+	const modelType = "Model_Name";
 	
 	const gemini_stream = async (params) => {
 		try {
